@@ -1,0 +1,80 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+a{
+  width: 20%;
+  color: black;
+  background-color: #f0cf85;
+  border-radius: 1em;
+  font-family: 'Lilita One', cursive;
+}
+
+a:hover{
+  background-color: white;
+  color: #196b66;
+}
+
+@media only screen and (min-width: 950px){
+  a{
+    width: 10%;
+  }
+  img{
+    width: 10vw;
+  }
+}
+
+nav{
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5%;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Knewave', cursive;
+  color: #000085;
+}
+
+body{
+  background-image: url(Stitch_background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+img{
+  width: 30%;
+}
+
+main{
+  background-color: #ffffff80;
+  margin-top: 1em;
+  justify-items: center;
+}
+
+div{
+	display: flex;
+	justify-content: center;
+}
+
+p{
+  width: 50vw;
+  font-weight: bold;
+  font-size: 1em;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+}
+
+iframe{
+  width: 300px;
+  height: 200px;
+  margin-top: 1em;
+}
+
+footer{
+  display: grid;
+  justify-content: center;
+}

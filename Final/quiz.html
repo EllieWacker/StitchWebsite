@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Final</title>
+  <link href="style(quiz).css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cantarell&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+	<nav>
+	  <a href="index.html">Home</a>
+	  <a href="game.html">Game</a>
+	  <a href="quiz.html">Quiz</a>
+	</nav>
+	<h1>Which alien are you quiz</h1>
+  </header>
+
+  <main>
+	<form id="quiz-form">
+	<div class="content" style="display: flex; justify-content: center;">
+		<div class="row">
+			<div>
+			  <label for="question_1">Question 1: What's your favorite color?</label><br>
+			  <select class="quiz-question" id="question_1">
+				<option value="">Select an option</option>
+				<option value="Blue">Blue</option>
+				<option value="Pink">Pink</option>
+				<option value="Red">Red</option>
+			  </select>
+			  <p id="error_1" style="color:red; display:none;" class="error">Please choose a color</p>
+			</div>
+			<div>
+			  <label for="question_4">Question 4: Are you loyal?</label><br>
+			  <select class="quiz-question" id="question_4">
+				<option value="">Select an option</option>
+				<option value="Always">Always</option>
+				<option value="Most of the time">Most of the time</option>
+				<option value="Not normally">Not normally</option>
+			  </select>
+			  <p id="error_4" style="color:red; display:none;" class="error">Please choose an answer</p>
+			</div>
+			
+		</div>
+		<div class="row">
+		<div>
+			  <label for="question_2">Question 2: What's your favorite movie?</label><br>
+			  <select class="quiz-question" id="question_2">
+				<option value="">Select an option</option>
+				<option value="Star Wars">Star Wars</option>
+				<option value="You've Got Mail">You've Got Mail</option>
+				<option value="Guardians of the Galaxy">Guardians of the Galaxy</option>
+			  </select>
+			  <p id="error_2" style="color:red; display:none;" class="error">Please choose a movie</p>
+			</div>
+			<div>
+			  <label for="question_5">Question 5: Where would you like to live?</label><br>
+			  <select class="quiz-question" id="question_5">
+				<option value="">Select an option</option>
+				<option value="Hawaii">Hawaii</option>
+				<option value="New York City">New York City</option>
+				<option value="Los Angeles">Los Angeles</option>
+			  </select>
+			  <p id="error_5" style="color:red; display:none;" class="error">Please choose a location</p>
+			</div>
+		</div>
+		<div class="row">
+		<div>
+			  <label for="question_3">Question 3: How do you like to spend your time?</label><br>
+			  <select class="quiz-question" id="question_3">
+				<option value="">Select an option</option>
+				<option value="At the beach">At the beach</option>
+				<option value="Shopping">Shopping</option>
+				<option value="Playing Sports">Playing Sports</option>
+			  </select>
+			  <p id="error_3" style="color:red; display:none;" class="error">Please choose an answer</p>
+			</div>
+			
+		</div>	
+	</div>
+		<button type="submit">Submit</button>
+	</form>
+  </main>
+
+  <footer>
+	<script src="script(quiz).js"></script>
+  </footer>
+</body>
+
+</html>
